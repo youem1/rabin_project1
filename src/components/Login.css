@@ -1,0 +1,296 @@
+.Login {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./public/image/joachim-bardua-ozEK3cg7jwM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: red; */
+    overflow: hidden;
+}
+
+.blur {
+    width: 100vw;
+    height: 100vh;
+    background: hsla(225, 17%, 18%, 1);
+    background: linear-gradient(90deg, hsla(225, 17%, 18%, 1) 0%, hsla(225, 17%, 18%, 1) 50%, rgba(38, 42, 54, 0.281) 100%);
+}
+
+.header-Login {
+    width: 100vw;
+    /* height: 25px; */
+    /* background-color: red; */
+    display: flex;
+    padding-top: 20px;
+}
+
+.header-Login span {
+    /* background-color: green; */
+    margin-left: 100px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header-Login .logo-Login {
+    /* background-color: pink; */
+    width: 40%;
+    display: flex;
+    padding-left: 50px;
+    /* padding-top: 30px; */
+}
+
+.header-Login .logo-Login .icon-Login {
+    width: 40px;
+    height: 40px;
+    background-color: #288ce6;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.header-Login .logo-Login .text-Login {
+    /* background-color: red; */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.inputs-Login {
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    background-color: #262a36;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.inputs-Login div {
+    margin-top: 40px;
+}
+
+.inputs-Login div div {
+    margin-top: 0px;
+}
+
+.inputs-Login .titl-Login {
+    width: 100%;
+    /* height: 500px; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputs-Login .titl-Login p,
+.inputs-Login .titl-Login .ask-Login {
+    margin-top: 30px;
+}
+
+.inputs-Login .inputPart-Login {
+    /* height: 300px; */
+    /* background-color: pink; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+.inputs-Login .inputPart-Login div {
+    margin: 50px auto;
+}
+
+.inputs-Login .inputPart-Login .part1-Login {
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs-Login .inputPart-Login .part1-Login span {
+    width: 46%;
+    background-color: #323544;
+    box-shadow: 2pt 2pt 5pt #252733;
+    display: flex;
+    padding: 2px;
+    padding-left: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.inputs-Login .inputPart-Login input {
+    /* border-radius: 15px;
+    border: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px; */
+    border: none;
+    background-color: #323544;
+}
+
+.inputs-Login .inputPart-Login .part1-Login span .icon-Input {
+    position: relative;
+    /* background-color: yellow; */
+    width: 40px;
+    height: 40px;
+    background-image: url(./public/icon/user.png);
+    box-shadow: 2pt 2pt 5pt #25273300;
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    right: 0px;
+    top: -50%;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+}
+
+.inputs-Login .inputPart-Login .part1-Login span p {
+    /* background-color: green; */
+    text-align: left;
+    /* width: 100%; */
+    margin: 5px;
+}
+
+.inputs-Login .inputPart-Login .part1-Login span input {
+    width: 75%;
+    height: 40px;
+}
+
+.inputs-Login .inputPart-Login .part2-Login .emailIcon-Login,
+.inputs-Login .inputPart-Login .part3-Login .emailIcon-Login {
+    /*position: absolute;
+    */
+    /*background-color: pink;
+    */
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url(./public/icon/user.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    /*width: auto;
+    */
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.inputs-Login .inputPart-Login .part3-Login,
+.inputs-Login .inputPart-Login .part2-Login {
+    position: relative;
+    width: 100%;
+    height: 68px;
+    background-color: #323544;
+    box-shadow: 2pt 2pt 5pt #252733;
+    top: 30x;
+    border-radius: 15px;
+    /*border: 2pt solid white;
+    */
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+.inputs-Login .inputPart-Login .part3-Login div,
+.inputs-Login .inputPart-Login .part2-Login div {
+    position: static;
+    padding: 0PX;
+    margin: 0PX;
+}
+
+.inputs-Login .inputPart-Login .part3-Login input,
+.inputs-Login .inputPart-Login .part2-Login input {
+    position: absolute;
+    width: 100%;
+    height: 65px;
+    /* margin-top: 0px !important; */
+    top: 0px;
+    background-color: #1d1f2915;
+    /* padding-top: 10px; */
+    font-size: x-large;
+    padding-left: 10px;
+    text-align: center;
+    padding: 0px;
+}
+
+.titlInfo-Login {
+    position: absolute;
+    width: 100%;
+    /* padding: 10px; */
+    /* background-color: red; */
+}
+
+.titlInfo-Login p {
+    /* background-color: red; */
+    width: fit-content;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.inputs-Login .controler-Login {
+    /* position: absolute; */
+    width: 100%;
+    /* height: 50px; */
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    /* bottom: 0px; */
+}
+
+.inputs-Login .controler-Login span {
+    width: 50%;
+    /* height: 50px; */
+    /* border: 2pt solid; */
+}
+
+.inputs-Login .controler-Login span button {
+    position: relative;
+    box-shadow: 2pt 2pt 5pt #1d1f29;
+    width: 95%;
+    height: 65px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border: none;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+
+.createBtn-Login {
+    background-color: #1a8ff8;
+    cursor: pointer;
+}
